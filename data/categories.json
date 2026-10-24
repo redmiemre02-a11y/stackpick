@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "project-management",
+    "name": "Project Management Software",
+    "short": "Project Management",
+    "description": "Tools for planning work, tracking tasks and keeping teams aligned.",
+    "features": [
+      { "key": "kanban", "label": "Kanban boards" },
+      { "key": "gantt", "label": "Gantt / timeline view" },
+      { "key": "time_tracking", "label": "Native time tracking" },
+      { "key": "docs", "label": "Built-in docs / wiki" },
+      { "key": "automations", "label": "Workflow automations" },
+      { "key": "guest_access", "label": "Guest / client access" },
+      { "key": "ai_assistant", "label": "AI assistant" },
+      { "key": "api", "label": "Public API" }
+    ]
+  },
+  {
+    "slug": "email-marketing",
+    "name": "Email Marketing Software",
+    "short": "Email Marketing",
+    "description": "Platforms for newsletters, automated campaigns and audience growth.",
+    "features": [
+      { "key": "automation_flows", "label": "Visual automation flows" },
+      { "key": "landing_pages", "label": "Landing pages" },
+      { "key": "ab_testing", "label": "A/B testing" },
+      { "key": "paid_newsletters", "label": "Paid subscriptions" },
+      { "key": "ecommerce", "label": "E-commerce integrations" },
+      { "key": "sms", "label": "SMS marketing" },
+      { "key": "ai_assistant", "label": "AI writing assistant" },
+      { "key": "api", "label": "Public API" }
+    ]
+  },
+  {
+    "slug": "ai-writing",
+    "name": "AI Writing Tools",
+    "short": "AI Writing",
+    "description": "AI assistants for drafting, rewriting and polishing text.",
+    "features": [
+      { "key": "templates", "label": "Copy templates" },
+      { "key": "brand_voice", "label": "Brand voice / style memory" },
+      { "key": "plagiarism", "label": "Plagiarism checker" },
+      { "key": "browser_ext", "label": "Browser extension" },
+      { "key": "seo_mode", "label": "SEO optimisation" },
+      { "key": "team_seats", "label": "Team workspaces" },
+      { "key": "multilingual", "label": "Multilingual output" },
+      { "key": "api", "label": "Public API" }
+    ]
+  }
+]

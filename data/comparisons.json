@@ -1,0 +1,758 @@
+[
+  {
+    "slug": "asana-vs-basecamp",
+    "category": "project-management",
+    "tool_a": "asana",
+    "tool_b": "basecamp",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "asana-vs-clickup",
+    "category": "project-management",
+    "tool_a": "asana",
+    "tool_b": "clickup",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "asana-vs-jira",
+    "category": "project-management",
+    "tool_a": "asana",
+    "tool_b": "jira",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "asana-vs-monday",
+    "category": "project-management",
+    "tool_a": "asana",
+    "tool_b": "monday",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "asana-vs-notion",
+    "category": "project-management",
+    "tool_a": "asana",
+    "tool_b": "notion",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "asana-vs-trello",
+    "category": "project-management",
+    "tool_a": "asana",
+    "tool_b": "trello",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "asana-vs-wrike",
+    "category": "project-management",
+    "tool_a": "asana",
+    "tool_b": "wrike",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "basecamp-vs-clickup",
+    "category": "project-management",
+    "tool_a": "basecamp",
+    "tool_b": "clickup",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "basecamp-vs-jira",
+    "category": "project-management",
+    "tool_a": "basecamp",
+    "tool_b": "jira",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "basecamp-vs-monday",
+    "category": "project-management",
+    "tool_a": "basecamp",
+    "tool_b": "monday",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "basecamp-vs-notion",
+    "category": "project-management",
+    "tool_a": "basecamp",
+    "tool_b": "notion",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "basecamp-vs-trello",
+    "category": "project-management",
+    "tool_a": "basecamp",
+    "tool_b": "trello",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "basecamp-vs-wrike",
+    "category": "project-management",
+    "tool_a": "basecamp",
+    "tool_b": "wrike",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "clickup-vs-jira",
+    "category": "project-management",
+    "tool_a": "clickup",
+    "tool_b": "jira",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "clickup-vs-monday",
+    "category": "project-management",
+    "tool_a": "clickup",
+    "tool_b": "monday",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "clickup-vs-notion",
+    "category": "project-management",
+    "tool_a": "clickup",
+    "tool_b": "notion",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "clickup-vs-trello",
+    "category": "project-management",
+    "tool_a": "clickup",
+    "tool_b": "trello",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "clickup-vs-wrike",
+    "category": "project-management",
+    "tool_a": "clickup",
+    "tool_b": "wrike",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "jira-vs-monday",
+    "category": "project-management",
+    "tool_a": "jira",
+    "tool_b": "monday",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "jira-vs-notion",
+    "category": "project-management",
+    "tool_a": "jira",
+    "tool_b": "notion",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "jira-vs-trello",
+    "category": "project-management",
+    "tool_a": "jira",
+    "tool_b": "trello",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "jira-vs-wrike",
+    "category": "project-management",
+    "tool_a": "jira",
+    "tool_b": "wrike",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "monday-vs-notion",
+    "category": "project-management",
+    "tool_a": "monday",
+    "tool_b": "notion",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "monday-vs-trello",
+    "category": "project-management",
+    "tool_a": "monday",
+    "tool_b": "trello",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "monday-vs-wrike",
+    "category": "project-management",
+    "tool_a": "monday",
+    "tool_b": "wrike",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "notion-vs-trello",
+    "category": "project-management",
+    "tool_a": "notion",
+    "tool_b": "trello",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "notion-vs-wrike",
+    "category": "project-management",
+    "tool_a": "notion",
+    "tool_b": "wrike",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "trello-vs-wrike",
+    "category": "project-management",
+    "tool_a": "trello",
+    "tool_b": "wrike",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "activecampaign-vs-beehiiv",
+    "category": "email-marketing",
+    "tool_a": "activecampaign",
+    "tool_b": "beehiiv",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "activecampaign-vs-brevo",
+    "category": "email-marketing",
+    "tool_a": "activecampaign",
+    "tool_b": "brevo",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "activecampaign-vs-getresponse",
+    "category": "email-marketing",
+    "tool_a": "activecampaign",
+    "tool_b": "getresponse",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "activecampaign-vs-kit",
+    "category": "email-marketing",
+    "tool_a": "activecampaign",
+    "tool_b": "kit",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "activecampaign-vs-klaviyo",
+    "category": "email-marketing",
+    "tool_a": "activecampaign",
+    "tool_b": "klaviyo",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "activecampaign-vs-mailchimp",
+    "category": "email-marketing",
+    "tool_a": "activecampaign",
+    "tool_b": "mailchimp",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "activecampaign-vs-mailerlite",
+    "category": "email-marketing",
+    "tool_a": "activecampaign",
+    "tool_b": "mailerlite",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "beehiiv-vs-brevo",
+    "category": "email-marketing",
+    "tool_a": "beehiiv",
+    "tool_b": "brevo",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "beehiiv-vs-getresponse",
+    "category": "email-marketing",
+    "tool_a": "beehiiv",
+    "tool_b": "getresponse",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "beehiiv-vs-kit",
+    "category": "email-marketing",
+    "tool_a": "beehiiv",
+    "tool_b": "kit",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "beehiiv-vs-klaviyo",
+    "category": "email-marketing",
+    "tool_a": "beehiiv",
+    "tool_b": "klaviyo",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "beehiiv-vs-mailchimp",
+    "category": "email-marketing",
+    "tool_a": "beehiiv",
+    "tool_b": "mailchimp",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "beehiiv-vs-mailerlite",
+    "category": "email-marketing",
+    "tool_a": "beehiiv",
+    "tool_b": "mailerlite",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "brevo-vs-getresponse",
+    "category": "email-marketing",
+    "tool_a": "brevo",
+    "tool_b": "getresponse",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "brevo-vs-kit",
+    "category": "email-marketing",
+    "tool_a": "brevo",
+    "tool_b": "kit",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "brevo-vs-klaviyo",
+    "category": "email-marketing",
+    "tool_a": "brevo",
+    "tool_b": "klaviyo",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "brevo-vs-mailchimp",
+    "category": "email-marketing",
+    "tool_a": "brevo",
+    "tool_b": "mailchimp",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "brevo-vs-mailerlite",
+    "category": "email-marketing",
+    "tool_a": "brevo",
+    "tool_b": "mailerlite",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "getresponse-vs-kit",
+    "category": "email-marketing",
+    "tool_a": "getresponse",
+    "tool_b": "kit",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "getresponse-vs-klaviyo",
+    "category": "email-marketing",
+    "tool_a": "getresponse",
+    "tool_b": "klaviyo",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "getresponse-vs-mailchimp",
+    "category": "email-marketing",
+    "tool_a": "getresponse",
+    "tool_b": "mailchimp",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "getresponse-vs-mailerlite",
+    "category": "email-marketing",
+    "tool_a": "getresponse",
+    "tool_b": "mailerlite",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "kit-vs-klaviyo",
+    "category": "email-marketing",
+    "tool_a": "kit",
+    "tool_b": "klaviyo",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "kit-vs-mailchimp",
+    "category": "email-marketing",
+    "tool_a": "kit",
+    "tool_b": "mailchimp",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "kit-vs-mailerlite",
+    "category": "email-marketing",
+    "tool_a": "kit",
+    "tool_b": "mailerlite",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "klaviyo-vs-mailchimp",
+    "category": "email-marketing",
+    "tool_a": "klaviyo",
+    "tool_b": "mailchimp",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "klaviyo-vs-mailerlite",
+    "category": "email-marketing",
+    "tool_a": "klaviyo",
+    "tool_b": "mailerlite",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "mailchimp-vs-mailerlite",
+    "category": "email-marketing",
+    "tool_a": "mailchimp",
+    "tool_b": "mailerlite",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "copy-ai-vs-grammarly",
+    "category": "ai-writing",
+    "tool_a": "copy-ai",
+    "tool_b": "grammarly",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "copy-ai-vs-jasper",
+    "category": "ai-writing",
+    "tool_a": "copy-ai",
+    "tool_b": "jasper",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "copy-ai-vs-quillbot",
+    "category": "ai-writing",
+    "tool_a": "copy-ai",
+    "tool_b": "quillbot",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "copy-ai-vs-rytr",
+    "category": "ai-writing",
+    "tool_a": "copy-ai",
+    "tool_b": "rytr",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "copy-ai-vs-sudowrite",
+    "category": "ai-writing",
+    "tool_a": "copy-ai",
+    "tool_b": "sudowrite",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "copy-ai-vs-wordtune",
+    "category": "ai-writing",
+    "tool_a": "copy-ai",
+    "tool_b": "wordtune",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "copy-ai-vs-writesonic",
+    "category": "ai-writing",
+    "tool_a": "copy-ai",
+    "tool_b": "writesonic",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "grammarly-vs-jasper",
+    "category": "ai-writing",
+    "tool_a": "grammarly",
+    "tool_b": "jasper",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "grammarly-vs-quillbot",
+    "category": "ai-writing",
+    "tool_a": "grammarly",
+    "tool_b": "quillbot",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "grammarly-vs-rytr",
+    "category": "ai-writing",
+    "tool_a": "grammarly",
+    "tool_b": "rytr",
+    "status": "published",
+    "published_at": "2026-10-24T14:10:32+00:00",
+    "ai": null
+  },
+  {
+    "slug": "grammarly-vs-sudowrite",
+    "category": "ai-writing",
+    "tool_a": "grammarly",
+    "tool_b": "sudowrite",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "grammarly-vs-wordtune",
+    "category": "ai-writing",
+    "tool_a": "grammarly",
+    "tool_b": "wordtune",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "grammarly-vs-writesonic",
+    "category": "ai-writing",
+    "tool_a": "grammarly",
+    "tool_b": "writesonic",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "jasper-vs-quillbot",
+    "category": "ai-writing",
+    "tool_a": "jasper",
+    "tool_b": "quillbot",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "jasper-vs-rytr",
+    "category": "ai-writing",
+    "tool_a": "jasper",
+    "tool_b": "rytr",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "jasper-vs-sudowrite",
+    "category": "ai-writing",
+    "tool_a": "jasper",
+    "tool_b": "sudowrite",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "jasper-vs-wordtune",
+    "category": "ai-writing",
+    "tool_a": "jasper",
+    "tool_b": "wordtune",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "jasper-vs-writesonic",
+    "category": "ai-writing",
+    "tool_a": "jasper",
+    "tool_b": "writesonic",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "quillbot-vs-rytr",
+    "category": "ai-writing",
+    "tool_a": "quillbot",
+    "tool_b": "rytr",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "quillbot-vs-sudowrite",
+    "category": "ai-writing",
+    "tool_a": "quillbot",
+    "tool_b": "sudowrite",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "quillbot-vs-wordtune",
+    "category": "ai-writing",
+    "tool_a": "quillbot",
+    "tool_b": "wordtune",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "quillbot-vs-writesonic",
+    "category": "ai-writing",
+    "tool_a": "quillbot",
+    "tool_b": "writesonic",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "rytr-vs-sudowrite",
+    "category": "ai-writing",
+    "tool_a": "rytr",
+    "tool_b": "sudowrite",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "rytr-vs-wordtune",
+    "category": "ai-writing",
+    "tool_a": "rytr",
+    "tool_b": "wordtune",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "rytr-vs-writesonic",
+    "category": "ai-writing",
+    "tool_a": "rytr",
+    "tool_b": "writesonic",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "sudowrite-vs-wordtune",
+    "category": "ai-writing",
+    "tool_a": "sudowrite",
+    "tool_b": "wordtune",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "sudowrite-vs-writesonic",
+    "category": "ai-writing",
+    "tool_a": "sudowrite",
+    "tool_b": "writesonic",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  },
+  {
+    "slug": "wordtune-vs-writesonic",
+    "category": "ai-writing",
+    "tool_a": "wordtune",
+    "tool_b": "writesonic",
+    "status": "draft",
+    "published_at": null,
+    "ai": null
+  }
+]
