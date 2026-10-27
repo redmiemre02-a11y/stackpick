@@ -46,5 +46,21 @@
       { "key": "multilingual", "label": "Multilingual output" },
       { "key": "api", "label": "Public API" }
     ]
+  },
+  {
+    "slug": "crm",
+    "name": "CRM & Sales Software",
+    "short": "CRM",
+    "description": "Platforms for managing customer pipelines, sales outreach and closing deals.",
+    "features": [
+      { "key": "pipeline_management", "label": "Visual sales pipelines" },
+      { "key": "email_tracking", "label": "Email tracking & 2-way sync" },
+      { "key": "lead_scoring", "label": "Lead scoring" },
+      { "key": "calling", "label": "Built-in dialer & call logs" },
+      { "key": "automations", "label": "Workflow automations" },
+      { "key": "reporting", "label": "Revenue forecasting & reports" },
+      { "key": "mobile_app", "label": "Mobile iOS / Android app" },
+      { "key": "api", "label": "Public API" }
+    ]
   }
 ]
