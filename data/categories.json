@@ -62,5 +62,21 @@
       { "key": "mobile_app", "label": "Mobile iOS / Android app" },
       { "key": "api", "label": "Public API" }
     ]
+  },
+  {
+    "slug": "seo-tools",
+    "name": "SEO & Digital Marketing Software",
+    "short": "SEO Tools",
+    "description": "Platforms for keyword research, backlink audits, competitor traffic and rank tracking.",
+    "features": [
+      { "key": "keyword_research", "label": "Keyword research database" },
+      { "key": "backlink_analysis", "label": "Backlink audit & link tracking" },
+      { "key": "rank_tracking", "label": "Daily rank tracking" },
+      { "key": "site_audit", "label": "Technical site crawler & audit" },
+      { "key": "competitor_analysis", "label": "Competitor organic & paid insights" },
+      { "key": "content_optimization", "label": "Content optimization / SEO editor" },
+      { "key": "local_seo", "label": "Local SEO & listing management" },
+      { "key": "api", "label": "Public API & Looker Studio" }
+    ]
   }
 ]
