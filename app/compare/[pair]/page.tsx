@@ -17,7 +17,7 @@ import {
   pairSlug,
 } from "@/lib/data";
 import { featureCoverage, formatUsd, quickFacts } from "@/lib/insights";
-import { YEAR, breadcrumbLd, faqLd } from "@/lib/seo";
+import { YEAR, breadcrumbLd, faqLd, comparisonArticleLd } from "@/lib/seo";
 
 export const revalidate = 86400; // ISR: refresh once per day
 export const dynamicParams = true; // pages not prebuilt are rendered on first request
@@ -53,6 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     alternates: { canonical: `/compare/${comp.slug}` },
     openGraph: { title, description, type: "article" },
+    twitter: { card: "summary_large_image", title, description },
   };
 }
 
@@ -80,7 +81,13 @@ export default async function ComparePage({ params }: Props) {
 
   return (
     <article>
-      <JsonLd data={[breadcrumbLd(crumbs), ...(ai?.faq?.length ? [faqLd(ai.faq)] : [])]} />
+      <JsonLd
+        data={[
+          breadcrumbLd(crumbs),
+          comparisonArticleLd(a, b, ai?.summary || facts.join(" "), comp.published_at),
+          ...(ai?.faq?.length ? [faqLd(ai.faq)] : []),
+        ]}
+      />
       <Breadcrumbs items={crumbs} />
       <h1>
         {a.name} vs {b.name}: Which {category.short} Tool Is Better in {YEAR}?
