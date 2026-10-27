@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CtaButton from "@/components/CtaButton";
 import JsonLd from "@/components/JsonLd";
+import ToolLogo from "@/components/ToolLogo";
 import { getCategory, getPublishedComparisons, getTool, getTools, getToolsByCategory, pairSlug } from "@/lib/data";
 import { featureDiff, formatUsd, similarity } from "@/lib/insights";
 import { YEAR, breadcrumbLd } from "@/lib/seo";
@@ -65,9 +66,12 @@ export default async function AlternativesPage({ params }: Props) {
           p.pricing.starting_price_usd < tool.pricing.starting_price_usd;
         return (
           <section className="card" key={p.slug} style={{ marginBottom: 16 }}>
-            <h2 style={{ marginTop: 0 }}>
-              {i + 1}. {p.name} <span className="badge">{Math.round(sim * 100)}% match</span>
-            </h2>
+            <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 8 }}>
+              <ToolLogo tool={p} size={36} />
+              <h2 style={{ margin: 0 }}>
+                {i + 1}. {p.name} <span className="badge">{Math.round(sim * 100)}% match</span>
+              </h2>
+            </div>
             <p>{p.tagline}</p>
             <p className="muted">
               From {formatUsd(p.pricing.starting_price_usd)}

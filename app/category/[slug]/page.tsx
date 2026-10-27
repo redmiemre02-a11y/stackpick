@@ -6,6 +6,7 @@ import CostCalculator from "@/components/CostCalculator";
 import CtaButton from "@/components/CtaButton";
 import FeatureTable from "@/components/FeatureTable";
 import JsonLd from "@/components/JsonLd";
+import ToolLogo from "@/components/ToolLogo";
 import { getCategories, getCategory, getPublishedComparisons, getToolsByCategory } from "@/lib/data";
 import { dataScore, formatUsd } from "@/lib/insights";
 import { YEAR, abs, breadcrumbLd } from "@/lib/seo";
@@ -89,11 +90,16 @@ export default async function CategoryHub({ params }: Props) {
               <tr key={t.slug}>
                 <td>{i + 1}</td>
                 <td>
-                  <Link href={`/tools/${t.slug}`}>
-                    <strong>{t.name}</strong>
-                  </Link>
-                  <br />
-                  <small>{t.best_for.join(", ")}</small>
+                  <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                    <ToolLogo tool={t} size={32} />
+                    <div>
+                      <Link href={`/tools/${t.slug}`}>
+                        <strong>{t.name}</strong>
+                      </Link>
+                      <br />
+                      <small>{t.best_for.join(", ")}</small>
+                    </div>
+                  </div>
                 </td>
                 <td className="score">{score}</td>
                 <td>{formatUsd(t.pricing.starting_price_usd)}</td>

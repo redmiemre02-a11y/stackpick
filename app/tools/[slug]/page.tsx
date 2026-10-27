@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CtaButton from "@/components/CtaButton";
 import JsonLd from "@/components/JsonLd";
+import ToolLogo from "@/components/ToolLogo";
 import { getCategory, getComparisonsForTool, getTool, getTools } from "@/lib/data";
 import { featureCoverage, formatUsd } from "@/lib/insights";
 import { YEAR, abs, breadcrumbLd } from "@/lib/seo";
@@ -61,9 +62,12 @@ export default async function ToolPage({ params }: Props) {
         ]}
       />
       <Breadcrumbs items={crumbs} />
-      <h1>
-        {tool.name} Review: Pricing &amp; Features ({YEAR})
-      </h1>
+      <div style={{ display: "flex", alignItems: "center", gap: 16, marginTop: 12, marginBottom: 8 }}>
+        <ToolLogo tool={tool} size={52} />
+        <h1 style={{ margin: 0 }}>
+          {tool.name} Review: Pricing &amp; Features ({YEAR})
+        </h1>
+      </div>
       <p className="lead">{tool.tagline}</p>
       <CtaButton tool={tool} />
 

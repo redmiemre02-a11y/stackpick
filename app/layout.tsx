@@ -18,7 +18,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <header className="site-header">
           <div className="container">
             <Link href="/" className="logo">
-              {SITE_NAME}
+              <span style={{ fontSize: "1.4rem" }}>⚡</span> {SITE_NAME}
             </Link>
             <nav>
               {categories.map((c) => (

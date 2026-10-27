@@ -6,6 +6,7 @@ import CostCalculator from "@/components/CostCalculator";
 import CtaButton from "@/components/CtaButton";
 import FeatureTable from "@/components/FeatureTable";
 import JsonLd from "@/components/JsonLd";
+import ToolLogo from "@/components/ToolLogo";
 import {
   getCategory,
   getComparison,
@@ -85,6 +86,21 @@ export default async function ComparePage({ params }: Props) {
         {a.name} vs {b.name}: Which {category.short} Tool Is Better in {YEAR}?
       </h1>
 
+      {/* Visual VS Hero Banner */}
+      <div className="vs-hero">
+        <div className="vs-tool">
+          <ToolLogo tool={a} size={56} />
+          <h2>{a.name}</h2>
+          <span className="price-tag">From {formatUsd(a.pricing.starting_price_usd)}</span>
+        </div>
+        <div className="vs-badge">VS</div>
+        <div className="vs-tool">
+          <ToolLogo tool={b} size={56} />
+          <h2>{b.name}</h2>
+          <span className="price-tag">From {formatUsd(b.pricing.starting_price_usd)}</span>
+        </div>
+      </div>
+
       {/* 1) Answer first: verdict box above the fold */}
       <section className="verdict">
         <h2>Quick verdict</h2>
@@ -160,7 +176,10 @@ export default async function ComparePage({ params }: Props) {
               { t: b, pros: ai.pros_b, cons: ai.cons_b },
             ].map(({ t, pros, cons }) => (
               <div className="card" key={t.slug}>
-                <h3>{t.name}</h3>
+                <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
+                  <ToolLogo tool={t} size={32} />
+                  <h3 style={{ margin: 0 }}>{t.name}</h3>
+                </div>
                 <ul className="pros">
                   {pros.map((p) => (
                     <li key={p}>{p}</li>
@@ -185,9 +204,12 @@ export default async function ComparePage({ params }: Props) {
           const cov = featureCoverage(t, category);
           return (
             <div className="card" key={t.slug}>
-              <h3>
-                <Link href={`/tools/${t.slug}`}>{t.name}</Link>
-              </h3>
+              <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
+                <ToolLogo tool={t} size={32} />
+                <h3 style={{ margin: 0 }}>
+                  <Link href={`/tools/${t.slug}`}>{t.name}</Link>
+                </h3>
+              </div>
               <p>{t.tagline}</p>
               <p className="muted">
                 Founded {t.founded ?? "n/a"} · From {formatUsd(t.pricing.starting_price_usd)} · {cov.have}/{cov.total}{" "}

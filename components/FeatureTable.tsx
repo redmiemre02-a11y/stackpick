@@ -1,5 +1,6 @@
 import type { Category, Tool } from "@/lib/types";
 import { formatUsd } from "@/lib/insights";
+import ToolLogo from "@/components/ToolLogo";
 
 export default function FeatureTable({ tools, category }: { tools: Tool[]; category: Category }) {
   return (
@@ -9,7 +10,12 @@ export default function FeatureTable({ tools, category }: { tools: Tool[]; categ
           <tr>
             <th>Feature</th>
             {tools.map((t) => (
-              <th key={t.slug}>{t.name}</th>
+              <th key={t.slug}>
+                <div style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
+                  <ToolLogo tool={t} size={24} />
+                  <span>{t.name}</span>
+                </div>
+              </th>
             ))}
           </tr>
         </thead>

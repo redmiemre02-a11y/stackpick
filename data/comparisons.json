@@ -6,7 +6,80 @@
     "tool_b": "basecamp",
     "status": "published",
     "published_at": "2026-10-24T14:10:32+00:00",
-    "ai": null
+    "ai": {
+      "summary": "Asana and Basecamp are project management tools with free plans and per-seat pricing. Asana starts at $10.99 per seat and includes Gantt, time tracking, automat...",
+      "verdict": "Choose Asana if you need Gantt charts, native time tracking, workflow automations, or an AI assistant, and if a lower starting price per seat matters. Choose Basecamp if built-in docs and a simpler feature set suit client work or remote teams, and you can accept the absence of Gantt, time tracking, automations, and AI. Asana wins overall for its broader feature coverage at a lower starting price.",
+      "winner_overall": "asana",
+      "use_cases": [
+        {
+          "use_case": "Teams needing timeline planning",
+          "winner": "asana",
+          "reason": "Asana has a Gantt / timeline view; Basecamp does not."
+        },
+        {
+          "use_case": "Tracking billable hours natively",
+          "winner": "asana",
+          "reason": "Asana includes native time tracking; Basecamp does not."
+        },
+        {
+          "use_case": "Automating repetitive workflows",
+          "winner": "asana",
+          "reason": "Asana supports workflow automations; Basecamp does not."
+        },
+        {
+          "use_case": "Client work with built-in documentation",
+          "winner": "basecamp",
+          "reason": "Basecamp includes built-in docs / wiki; Asana does not."
+        },
+        {
+          "use_case": "Budget-sensitive teams comparing starting prices",
+          "winner": "asana",
+          "reason": "Asana starts at $10.99 per seat versus $15 per seat for Basecamp."
+        }
+      ],
+      "pros_a": [
+        "Lower starting price at $10.99 per seat compared to $15 per seat for Basecamp.",
+        "Includes Gantt / timeline view, native time tracking, workflow automations, and an AI assistant.",
+        "Supports Kanban boards, guest / client access, and a public API."
+      ],
+      "cons_a": [
+        "Does not include built-in docs / wiki.",
+        "Pricing is per seat, so costs scale with team size."
+      ],
+      "pros_b": [
+        "Includes built-in docs / wiki, which Asana lacks.",
+        "Supports Kanban boards, guest / client access, and a public API.",
+        "Offers a free plan."
+      ],
+      "cons_b": [
+        "Higher starting price at $15 per seat compared to $10.99 per seat for Asana.",
+        "Lacks Gantt / timeline view, native time tracking, workflow automations, and an AI assistant."
+      ],
+      "faq": [
+        {
+          "question": "Is Asana cheaper than Basecamp?",
+          "answer": "Yes, Asana starts at $10.99 per seat, while Basecamp starts at $15 per seat."
+        },
+        {
+          "question": "Does Basecamp have a Gantt chart?",
+          "answer": "No, Basecamp does not include a Gantt / timeline view, but Asana does."
+        },
+        {
+          "question": "Which tool offers native time tracking?",
+          "answer": "Asana offers native time tracking; Basecamp does not."
+        },
+        {
+          "question": "Does Asana include built-in docs or a wiki?",
+          "answer": "No, Asana does not include built-in docs / wiki, while Basecamp does."
+        },
+        {
+          "question": "Do both tools have a free plan?",
+          "answer": "Yes, both Asana and Basecamp offer a free plan."
+        }
+      ],
+      "model": "DeepSeek (deepseek-chat)",
+      "generated_at": "2026-10-27T11:11:52+00:00"
+    }
   },
   {
     "slug": "asana-vs-clickup",
@@ -15,7 +88,82 @@
     "tool_b": "clickup",
     "status": "published",
     "published_at": "2026-10-24T14:10:32+00:00",
-    "ai": null
+    "ai": {
+      "summary": "Asana and ClickUp are both per-seat project management platforms with free plans, Kanban, Gantt, time tracking, automations, guest access, AI assistants, and pu...",
+      "verdict": "ClickUp is the stronger overall pick on the provided data: it costs less per seat ($7 vs $10.99), includes built-in docs that Asana does not, and matches Asana on every other listed feature. Asana remains a reasonable choice for marketing and cross-team work, but buyers pay more per seat without gaining any listed capability over ClickUp. Teams that need a docs/wiki layer should favor ClickUp; teams already standardized on Asana's workflow for marketing and cross-functional projects can justify the higher per-seat price only on fit, not on features.",
+      "winner_overall": "clickup",
+      "use_cases": [
+        {
+          "use_case": "Budget-conscious team buying per-seat licenses",
+          "winner": "clickup",
+          "reason": "ClickUp starts at $7 per seat versus $10.99 per seat for Asana, and both bill per seat."
+        },
+        {
+          "use_case": "Team that needs an integrated docs or wiki",
+          "winner": "clickup",
+          "reason": "ClickUp includes built-in docs/wiki; Asana does not list a native docs feature."
+        },
+        {
+          "use_case": "Marketing team running cross-team campaigns",
+          "winner": "asana",
+          "reason": "Asana lists marketing teams and cross-team projects as its best-fit scenarios."
+        },
+        {
+          "use_case": "Agency replacing several separate tools",
+          "winner": "clickup",
+          "reason": "ClickUp is positioned as an all-in-one workspace for tasks, docs and goals, and lists agencies and teams replacing several tools as best-fit."
+        },
+        {
+          "use_case": "Team needing Kanban, Gantt, time tracking, automations, guest access, AI and API",
+          "winner": "tie",
+          "reason": "Both tools list all eight defined features except docs, which only ClickUp has."
+        }
+      ],
+      "pros_a": [
+        "Per-seat pricing starts at $10.99 with a free plan available",
+        "Covers Kanban, Gantt, native time tracking, automations, guest access, AI assistant, and public API",
+        "Positioned for marketing teams and cross-team projects",
+        "Operating since 2008"
+      ],
+      "cons_a": [
+        "No built-in docs/wiki among the listed features",
+        "Higher starting price per seat than ClickUp ($10.99 vs $7)"
+      ],
+      "pros_b": [
+        "Lower starting price per seat at $7 with a free plan available",
+        "Includes built-in docs/wiki, which Asana lacks",
+        "Covers Kanban, Gantt, native time tracking, automations, guest access, AI assistant, and public API",
+        "Positioned as an all-in-one workspace for tasks, docs and goals, suited to agencies and teams consolidating tools"
+      ],
+      "cons_b": [
+        "Founded in 2017, a shorter track record than Asana's 2008 founding",
+        "Per-seat billing means cost scales with team size"
+      ],
+      "faq": [
+        {
+          "question": "Is Asana cheaper than ClickUp?",
+          "answer": "No. Asana starts at $10.99 per seat, while ClickUp starts at $7 per seat; both bill per seat and offer a free plan."
+        },
+        {
+          "question": "Does Asana have built-in docs or a wiki?",
+          "answer": "No. Among the listed features, Asana does not include a native docs/wiki, while ClickUp does."
+        },
+        {
+          "question": "Do both tools offer Kanban, Gantt, and time tracking?",
+          "answer": "Yes. Both Asana and ClickUp list Kanban boards, Gantt/timeline views, and native time tracking."
+        },
+        {
+          "question": "Which tool is better for an agency replacing several tools?",
+          "answer": "ClickUp, based on its positioning as an all-in-one workspace for tasks, docs and goals and its listed best fit for agencies and teams replacing several tools."
+        },
+        {
+          "question": "Do both tools have an AI assistant and a public API?",
+          "answer": "Yes. Both Asana and ClickUp list an AI assistant and a public API among their features."
+        }
+      ],
+      "model": "DeepSeek (deepseek-chat)",
+      "generated_at": "2026-10-27T11:12:20+00:00"
+    }
   },
   {
     "slug": "asana-vs-jira",
@@ -24,7 +172,83 @@
     "tool_b": "jira",
     "status": "published",
     "published_at": "2026-10-24T14:10:32+00:00",
-    "ai": null
+    "ai": {
+      "summary": "Asana and Jira are both per-seat project management tools with free plans, Kanban boards, Gantt views, time tracking, automations, AI assistants, and public API...",
+      "verdict": "Jira is the lower-cost option at $7.53 per seat versus Asana's $10.99, and it is positioned for software teams and agile sprints. Asana costs more per seat but includes guest and client access, which Jira's feature set does not list, making Asana the better fit for marketing and cross-team work that involves outside collaborators. Neither tool lists built-in docs or wiki, so buyers needing that should look elsewhere. Choose Jira for software-focused work on a tighter per-seat budget, and Asana when client or guest collaboration matters.",
+      "winner_overall": "tie",
+      "use_cases": [
+        {
+          "use_case": "Software team running agile sprints",
+          "winner": "jira",
+          "reason": "Jira is positioned for software teams and agile sprints and costs $7.53 per seat versus Asana's $10.99."
+        },
+        {
+          "use_case": "Marketing team managing cross-team projects",
+          "winner": "asana",
+          "reason": "Asana lists marketing teams and cross-team projects as best-fit uses and includes guest access."
+        },
+        {
+          "use_case": "Working with clients or external guests",
+          "winner": "asana",
+          "reason": "Asana lists guest/client access; Jira's feature set does not include guest access."
+        },
+        {
+          "use_case": "Budget-sensitive buyer comparing per-seat cost",
+          "winner": "jira",
+          "reason": "Jira's starting price of $7.53 per seat is lower than Asana's $10.99 per seat."
+        },
+        {
+          "use_case": "Team needing built-in docs or a wiki",
+          "winner": "tie",
+          "reason": "Neither Asana nor Jira lists built-in docs or wiki in its feature set."
+        }
+      ],
+      "pros_a": [
+        "Includes guest and client access, which Jira's feature set does not list",
+        "Covers Kanban, Gantt, time tracking, automations, AI assistant, and public API",
+        "Positioned for marketing teams and cross-team projects",
+        "Offers a free plan"
+      ],
+      "cons_a": [
+        "Higher starting price at $10.99 per seat versus Jira's $7.53",
+        "Does not list built-in docs or wiki"
+      ],
+      "pros_b": [
+        "Lower starting price at $7.53 per seat versus Asana's $10.99",
+        "Positioned for software teams and agile sprints",
+        "Covers Kanban, Gantt, time tracking, automations, AI assistant, and public API",
+        "Offers a free plan"
+      ],
+      "cons_b": [
+        "Does not list guest or client access",
+        "Does not list built-in docs or wiki",
+        "Higher per-seat cost than Asana is not a factor, but its positioning is narrower toward software and agile work"
+      ],
+      "faq": [
+        {
+          "question": "Is Asana cheaper than Jira?",
+          "answer": "No. Asana starts at $10.99 per seat, while Jira starts at $7.53 per seat."
+        },
+        {
+          "question": "Do both tools offer a free plan?",
+          "answer": "Yes, both Asana and Jira list a free plan."
+        },
+        {
+          "question": "Does Jira offer guest or client access?",
+          "answer": "Jira's feature set does not list guest or client access, while Asana's does."
+        },
+        {
+          "question": "Do Asana and Jira both have Kanban and Gantt views?",
+          "answer": "Yes, both list Kanban boards and Gantt/timeline views."
+        },
+        {
+          "question": "Which tool has built-in docs or a wiki?",
+          "answer": "Neither Asana nor Jira lists built-in docs or wiki in its feature set."
+        }
+      ],
+      "model": "DeepSeek (deepseek-chat)",
+      "generated_at": "2026-10-27T11:12:45+00:00"
+    }
   },
   {
     "slug": "asana-vs-monday",
@@ -33,7 +257,84 @@
     "tool_b": "monday",
     "status": "published",
     "published_at": "2026-10-24T14:10:32+00:00",
-    "ai": null
+    "ai": {
+      "summary": "Asana and monday.com are both per-seat project management tools with free plans, Kanban, Gantt, time tracking, automations, guest access, AI assistants, and pub...",
+      "verdict": "monday.com is the stronger overall pick here: it starts at $9 per seat versus $10.99 for Asana and is the only one of the two with built-in docs/wiki, while matching Asana on every other listed feature. Asana remains a reasonable choice for marketing and cross-team projects, but buyers comparing on price per seat and feature coverage will find monday.com ahead. Both bill per seat, so cost scales with team size either way.",
+      "winner_overall": "monday",
+      "use_cases": [
+        {
+          "use_case": "Buyer prioritizing lowest starting price per seat",
+          "winner": "monday",
+          "reason": "monday.com starts at $9 per seat versus $10.99 for Asana, and both bill per seat."
+        },
+        {
+          "use_case": "Team needing a built-in docs or wiki space",
+          "winner": "monday",
+          "reason": "monday.com includes built-in docs/wiki, while Asana does not list this feature."
+        },
+        {
+          "use_case": "Marketing team running cross-team projects",
+          "winner": "asana",
+          "reason": "Asana lists marketing teams and cross-team projects as its best-fit uses."
+        },
+        {
+          "use_case": "Non-technical or operations team wanting customizable boards",
+          "winner": "monday",
+          "reason": "monday.com lists operations teams and non-technical teams as best-fit uses and positions itself as a customizable work OS."
+        },
+        {
+          "use_case": "Team needing Kanban, Gantt, time tracking, automations, guest access, AI, and API",
+          "winner": "tie",
+          "reason": "Both tools list all of these features as available."
+        }
+      ],
+      "pros_a": [
+        "Founded in 2008, giving it the longer operating history of the two",
+        "Positions itself for marketing teams and cross-team projects",
+        "Includes Kanban, Gantt, native time tracking, automations, guest access, AI assistant, and public API",
+        "Offers a free plan alongside per-seat paid pricing from $10.99"
+      ],
+      "cons_a": [
+        "Starting price of $10.99 per seat is higher than monday.com's $9",
+        "No built-in docs/wiki listed among its features",
+        "Bills per seat, so costs grow with team size"
+      ],
+      "pros_b": [
+        "Lower starting price at $9 per seat versus $10.99 for Asana",
+        "Includes built-in docs/wiki, which Asana does not list",
+        "Matches Asana across Kanban, Gantt, time tracking, automations, guest access, AI assistant, and public API",
+        "Positions itself for operations and non-technical teams with customizable boards"
+      ],
+      "cons_b": [
+        "Bills per seat, so costs scale with team size",
+        "Founded in 2012, later than Asana's 2008",
+        "Its listed best-fit uses center on operations and non-technical teams rather than marketing"
+      ],
+      "faq": [
+        {
+          "question": "Is Asana cheaper than monday.com?",
+          "answer": "No. Asana starts at $10.99 per seat, while monday.com starts at $9 per seat. Both bill per seat and both offer a free plan."
+        },
+        {
+          "question": "Does monday.com have built-in docs that Asana lacks?",
+          "answer": "Yes. monday.com lists built-in docs/wiki as a feature; Asana does not list this feature."
+        },
+        {
+          "question": "Do both tools offer Kanban, Gantt, and time tracking?",
+          "answer": "Yes. Both Asana and monday.com list Kanban boards, Gantt/timeline views, and native time tracking."
+        },
+        {
+          "question": "Which tool is better for marketing teams?",
+          "answer": "Asana lists marketing teams among its best-fit uses, while monday.com lists operations and non-technical teams instead."
+        },
+        {
+          "question": "Do both tools have a free plan and a public API?",
+          "answer": "Yes. Both offer a free plan and list a public API, along with automations, guest access, and an AI assistant."
+        }
+      ],
+      "model": "DeepSeek (deepseek-chat)",
+      "generated_at": "2026-10-27T11:22:57+00:00"
+    }
   },
   {
     "slug": "asana-vs-notion",
@@ -42,7 +343,84 @@
     "tool_b": "notion",
     "status": "published",
     "published_at": "2026-10-24T14:10:32+00:00",
-    "ai": null
+    "ai": {
+      "summary": "Asana and Notion are both per-seat project management tools with free plans, starting at $10.99 and $10 per seat respectively. Asana adds native time tracking b...",
+      "verdict": "Pick Asana if you need native time tracking alongside Kanban, Gantt, automations, and guest access for cross-team project delivery. Pick Notion if your work centers on connected docs, wikis, and databases and you can live without native time tracking. Both charge per seat and include a free plan, so the deciding factor is time tracking versus a built-in docs and wiki layer.",
+      "winner_overall": "tie",
+      "use_cases": [
+        {
+          "use_case": "Teams that need native time tracking",
+          "winner": "asana",
+          "reason": "Asana lists native time tracking; Notion does not."
+        },
+        {
+          "use_case": "Knowledge-heavy teams needing a built-in wiki",
+          "winner": "notion",
+          "reason": "Notion includes built-in docs and wikis; Asana does not."
+        },
+        {
+          "use_case": "Marketing and cross-team project delivery",
+          "winner": "asana",
+          "reason": "Asana is positioned for marketing teams and cross-team projects and covers Kanban, Gantt, automations, and guest access."
+        },
+        {
+          "use_case": "Startups wanting docs and project views in one tool",
+          "winner": "notion",
+          "reason": "Notion is aimed at startups and knowledge-heavy teams and combines docs with Kanban, Gantt, automations, and guest access."
+        },
+        {
+          "use_case": "Budget-sensitive buyers comparing entry prices",
+          "winner": "tie",
+          "reason": "Starting prices are close: $10.99 per seat for Asana versus $10 per seat for Notion, and both offer a free plan."
+        }
+      ],
+      "pros_a": [
+        "Native time tracking, which Notion lacks",
+        "Covers Kanban, Gantt, automations, guest access, AI assistant, and public API",
+        "Positioned for marketing teams and cross-team projects",
+        "Free plan available"
+      ],
+      "cons_a": [
+        "No built-in docs or wiki",
+        "Higher starting price per seat than Notion ($10.99 vs $10)",
+        "Billed per seat, so cost scales with team size"
+      ],
+      "pros_b": [
+        "Built-in docs and wikis alongside Kanban, Gantt, automations, guest access, AI assistant, and public API",
+        "Lower starting price per seat than Asana ($10 vs $10.99)",
+        "Positioned for startups and knowledge-heavy teams",
+        "Free plan available"
+      ],
+      "cons_b": [
+        "No native time tracking",
+        "Billed per seat, so cost scales with team size",
+        "Founded in 2013, later than Asana's 2008"
+      ],
+      "faq": [
+        {
+          "question": "Is Asana cheaper than Notion?",
+          "answer": "No. Asana starts at $10.99 per seat, while Notion starts at $10 per seat. Both offer a free plan."
+        },
+        {
+          "question": "Does Notion have native time tracking?",
+          "answer": "No. Notion's feature list does not include native time tracking; Asana's does."
+        },
+        {
+          "question": "Does Asana include built-in docs or a wiki?",
+          "answer": "No. Asana's feature list does not include built-in docs or a wiki; Notion's does."
+        },
+        {
+          "question": "How do the billing models compare?",
+          "answer": "Both are billed per seat, so total cost scales with the number of users on either tool."
+        },
+        {
+          "question": "Which tool has a public API?",
+          "answer": "Both Asana and Notion list a public API."
+        }
+      ],
+      "model": "DeepSeek (deepseek-chat)",
+      "generated_at": "2026-10-27T11:23:01+00:00"
+    }
   },
   {
     "slug": "asana-vs-trello",
@@ -51,7 +429,84 @@
     "tool_b": "trello",
     "status": "published",
     "published_at": "2026-10-24T14:10:32+00:00",
-    "ai": null
+    "ai": {
+      "summary": "Asana and Trello are both per-seat project management tools with free plans, but Asana starts at $10.99 per seat while Trello starts at $5 per seat. Asana adds...",
+      "verdict": "Trello is the lower-cost choice at $5 per seat versus Asana's $10.99 per seat, and its Kanban-first design suits small teams and personal task boards. Asana costs more per seat but includes native time tracking, which Trello lacks, and is positioned for marketing teams and cross-team projects. Buyers who need time tracking should pick Asana; buyers optimizing for price per seat and simple boards should pick Trello.",
+      "winner_overall": "tie",
+      "use_cases": [
+        {
+          "use_case": "Budget-conscious small team choosing a per-seat tool",
+          "winner": "trello",
+          "reason": "Trello starts at $5 per seat versus Asana's $10.99 per seat, and both offer a free plan."
+        },
+        {
+          "use_case": "Team that needs native time tracking",
+          "winner": "asana",
+          "reason": "Asana lists native time tracking, while Trello does not."
+        },
+        {
+          "use_case": "Personal task boards",
+          "winner": "trello",
+          "reason": "Trello is positioned for personal task boards and small teams at the lower per-seat price."
+        },
+        {
+          "use_case": "Cross-team marketing projects",
+          "winner": "asana",
+          "reason": "Asana is positioned for marketing teams and cross-team projects, with Kanban, Gantt, automations, guest access, AI assistant, and API."
+        },
+        {
+          "use_case": "Visual Kanban-centric workflow",
+          "winner": "tie",
+          "reason": "Both tools offer Kanban boards, Gantt views, automations, guest access, an AI assistant, and a public API."
+        }
+      ],
+      "pros_a": [
+        "Includes native time tracking, which Trello lacks",
+        "Offers Kanban, Gantt, automations, guest access, AI assistant, and API",
+        "Positioned for marketing teams and cross-team projects",
+        "Founded in 2008, with a free plan available"
+      ],
+      "cons_a": [
+        "Starts at $10.99 per seat, more than double Trello's $5 per seat",
+        "Does not list built-in docs or wiki",
+        "Billed per seat, so cost scales with team size"
+      ],
+      "pros_b": [
+        "Starts at $5 per seat, the lower entry price of the two",
+        "Kanban-first design suited to small teams and personal task boards",
+        "Offers Kanban, Gantt, automations, guest access, AI assistant, and API",
+        "Free plan available"
+      ],
+      "cons_b": [
+        "No native time tracking",
+        "Does not list built-in docs or wiki",
+        "Billed per seat, so cost scales with team size"
+      ],
+      "faq": [
+        {
+          "question": "Is Asana cheaper than Trello?",
+          "answer": "No. Asana starts at $10.99 per seat, while Trello starts at $5 per seat. Both bill per seat and offer a free plan."
+        },
+        {
+          "question": "Does Trello have native time tracking?",
+          "answer": "No. Trello's feature list does not include native time tracking, while Asana's does."
+        },
+        {
+          "question": "Do both tools have Kanban boards and Gantt views?",
+          "answer": "Yes. Both Asana and Trello list Kanban boards and Gantt/timeline views."
+        },
+        {
+          "question": "Which tool is better for small teams?",
+          "answer": "Trello is positioned for small teams and personal task boards and has the lower starting price at $5 per seat, versus $10.99 per seat for Asana."
+        },
+        {
+          "question": "Do Asana and Trello both offer a public API and AI assistant?",
+          "answer": "Yes. Both tools list a public API, an AI assistant, workflow automations, and guest/client access."
+        }
+      ],
+      "model": "DeepSeek (deepseek-chat)",
+      "generated_at": "2026-10-27T11:23:06+00:00"
+    }
   },
   {
     "slug": "asana-vs-wrike",
